@@ -48,6 +48,11 @@
           <li><a href="#how-it-works" class="nav-link">How to Order</a></li>
           <li><a href="#about" class="nav-link">About Us</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li style="margin-top: 10px; width: 100%;" class="mobile-only-drawer-cta">
+            <a href="https://wa.me/919080934681?text=Hello%20Mona%20Kake!%20I'd%20like%20to%20order." target="_blank" rel="noopener" class="btn btn-whatsapp" style="width: 100%;">
+              <span>WhatsApp Direct Order</span>
+            </a>
+          </li>
         </ul>
 
         <!-- Right Action Group -->
@@ -77,6 +82,9 @@
       </div>
     </nav>
   </header>
+
+  <!-- Mobile Backdrop Overlay -->
+  <div class="mobile-nav-backdrop" id="mobile-nav-backdrop"></div>
 
   <!-- Hero Section -->
   <main>
@@ -232,44 +240,44 @@
           </p>
         </div>
 
-        <div class="steps-grid" style="grid-template-columns: repeat(4, 1fr);">
+        <div class="specialities-grid">
           <!-- Speciality 1 -->
-          <div class="step-card" style="padding: 24px;">
-            <div style="height: 160px; border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 18px;">
-              <img src="assets/images/classic_brownie.jpg" alt="Premium Chocolate Brownies" style="width: 100%; height: 100%; object-fit: cover;">
+          <div class="speciality-card">
+            <div class="speciality-card-img-wrap">
+              <img src="assets/images/classic_brownie.jpg" alt="Premium Chocolate Brownies">
             </div>
-            <h3 class="step-title" style="font-size: 1.15rem; margin-bottom: 6px;">Chocolate Brownies</h3>
-            <p class="step-desc" style="font-size: 0.86rem; margin-bottom: 14px;">Classic, Triple Choco, Almond & Double Choco dip options with crunchy crackly tops.</p>
+            <h3 class="speciality-card-title">Chocolate Brownies</h3>
+            <p class="speciality-card-desc">Classic, Triple Choco, Almond & Double Choco dip options with crunchy crackly tops.</p>
             <a href="#menu" class="btn btn-outline btn-sm" onclick="selectCategory('brownies')">View Brownies</a>
           </div>
 
           <!-- Speciality 2 -->
-          <div class="step-card" style="padding: 24px;">
-            <div style="height: 160px; border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 18px;">
-              <img src="assets/images/brownie_slab.png" alt="Brownie Slab Cake" style="width: 100%; height: 100%; object-fit: cover;">
+          <div class="speciality-card">
+            <div class="speciality-card-img-wrap">
+              <img src="assets/images/brownie_slab.png" alt="Brownie Slab Cake">
             </div>
-            <h3 class="step-title" style="font-size: 1.15rem; margin-bottom: 6px;">Brownie Slab Cakes</h3>
-            <p class="step-desc" style="font-size: 0.86rem; margin-bottom: 14px;">The celebration centerpiece! Customizable with chocolate drizzles, nuts, and letters.</p>
+            <h3 class="speciality-card-title">Brownie Slab Cakes</h3>
+            <p class="speciality-card-desc">The celebration centerpiece! Customizable with chocolate drizzles, nuts, and letters.</p>
             <a href="#menu" class="btn btn-outline btn-sm" onclick="selectCategory('slabs')">View Slab Cakes</a>
           </div>
 
           <!-- Speciality 3 -->
-          <div class="step-card" style="padding: 24px;">
-            <div style="height: 160px; border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 18px;">
-              <img src="assets/images/red_velvet_jar.jpg" alt="Delightful Jar Cakes" style="width: 100%; height: 100%; object-fit: cover;">
+          <div class="speciality-card">
+            <div class="speciality-card-img-wrap">
+              <img src="assets/images/red_velvet_jar.jpg" alt="Delightful Jar Cakes">
             </div>
-            <h3 class="step-title" style="font-size: 1.15rem; margin-bottom: 6px;">Layered Jar Cakes</h3>
-            <p class="step-desc" style="font-size: 0.86rem; margin-bottom: 14px;">Red Velvet, Nutella, Choco Truffle & White Forest in handy Mini and Regular jars.</p>
+            <h3 class="speciality-card-title">Layered Jar Cakes</h3>
+            <p class="speciality-card-desc">Red Velvet, Nutella, Choco Truffle & White Forest in handy Mini and Regular jars.</p>
             <a href="#menu" class="btn btn-outline btn-sm" onclick="selectCategory('jars')">View Jar Cakes</a>
           </div>
 
           <!-- Speciality 4 -->
-          <div class="step-card" style="padding: 24px;">
-            <div style="height: 160px; border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 18px;">
-              <img src="assets/images/chocolate_dream_cake.jpg" alt="5-in-1 Dream Cakes" style="width: 100%; height: 100%; object-fit: cover;">
+          <div class="speciality-card">
+            <div class="speciality-card-img-wrap">
+              <img src="assets/images/chocolate_dream_cake.jpg" alt="5-in-1 Dream Cakes">
             </div>
-            <h3 class="step-title" style="font-size: 1.15rem; margin-bottom: 6px;">5-in-1 Dream Cakes</h3>
-            <p class="step-desc" style="font-size: 0.86rem; margin-bottom: 14px;">Crackable chocolate shell tins, plus fusion Rasamalai and Gulab Jamun flavours.</p>
+            <h3 class="speciality-card-title">5-in-1 Dream Cakes</h3>
+            <p class="speciality-card-desc">Crackable chocolate shell tins, plus fusion Rasamalai and Gulab Jamun flavours.</p>
             <a href="#menu" class="btn btn-outline btn-sm" onclick="selectCategory('dreams')">View Dream Cakes</a>
           </div>
         </div>
